@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.myresume{
+    background-color: #2f7c7c;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+    transition: .5s;
+}
+.myresume:hover{
+    background-color: rgb(43, 156, 68);
+    color:#000;
+}
+.btn{
+    background-color: #FF8C00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #114d3e;
+}
+.exp-box{
+    background-color: #72caca;
+    border-radius: 4px;
+    padding: 10px;
+}
+.service{
+    width: 84%;
+    margin-left: 8%;
+
+}
+.content{
+    background-color: #72caca;
+    border-radius: 4px;
+    padding: 10px;
+}
+.exp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #114d3e
+}
+.experience{
+    width: 84%;
+    margin-left: 8%;
+}
+.imaa{
+    width: 100%;
+}
+.folio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #114d3e
+}
+.portfolio{
+    width: 84%;
+    margin-left: 8%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: #B8860B;
+    background-color: #2F4F4F;
+    border-radius: 4px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.logo:hover{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detail h1{
+    font-size:50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: #FF8C00;
+}
+.line{
+    background-color: #2F4F4F;
+    height: 2px;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 10px;
+}
+.oo{
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.oo:hover{
+    background-color: #2F4F4F;
+}
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+.detail a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: .5s;
+}
+.detail a:hover{
+    color: #556B2F;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transform: bottom 1s, left 1s;
+    transition: .5s;
+}
+.imahe{
+    border-radius: 50%;
+}
+.images:hover .imahe{
+    bottom: 40px;
+}
+.images:hover .man{
+    left: 45%;
+}
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    body{
+        padding: 0;
+    }
+
+    nav{
+        display: initial;
+    }
+
+    nav{
+        left:-120%;
+    }
+
+    nav.active{
+        left:0%;
+    }
+    .imahe{ 
+        width: 100%;
+        height: 100%
+    }
+    .man{
+        width: 100%;
+        height: 100%
+    }
+    h1{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    nav{
+        width:100%;
+    }
+
+    .experience .box-container .box{
+        padding-right: 0;
+    }
+    .imahe{
+        width: 20%;
+        height: 20%
+    }
+    .man{
+        width: 20%;
+        height: 20%
+    }
+    h1{
+        font-size: 18px;
+    }
+
+}
